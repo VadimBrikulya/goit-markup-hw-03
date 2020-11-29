@@ -30,6 +30,35 @@ img {
   display: block;
 }
 /*---------- Header navigation ------------*/
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header .logo-text-studio {
+  margin-left: 215px;
+  margin-top: 24px;
+  margin-right: 93px;
+  margin-bottom: 25px;
+}
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.navigation-menu {
+  display: flex;
+  justify-content: center;
+}
+.address-list {
+  display: flex;
+  justify-content: center;
+}
+
+.header .address {
+  margin-right: 30px;
+}
 .logo-text-studio {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -67,6 +96,20 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--secondary-color);
+}
+
+.navigation-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+.container-address {
+  margin-right: 215px;
+  margin-top: 32px;
+}
+
+.container-item {
+  margin-top: 32px;
+  margin-bottom: 32px;
 }
 
 .header-tel,
