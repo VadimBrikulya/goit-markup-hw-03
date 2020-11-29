@@ -40,7 +40,6 @@ img {
   margin-left: 215px;
   margin-top: 24px;
   margin-right: 93px;
-  margin-bottom: 25px;
 }
 .navigation {
   display: flex;
@@ -133,7 +132,6 @@ img {
   text-transform: uppercase;
   /* color: #ffffff; */
   text-align: center;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
