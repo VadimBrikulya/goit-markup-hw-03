@@ -31,6 +31,29 @@ img {
 }
 
 /*---------- Header navigation ------------*/
+
+.header {
+  display: flex;
+  border: 1px solid teal;
+}
+
+.container {
+  justify-content: space-between;
+}
+
+/* ----------------логотип в ----------------------*/
+.container-logo {
+  display: flex;
+  border: 1px solid green;
+}
+/* логотип + студия + портфолио + контакты*/
+
+.navigation {
+  display: flex;
+  border: 1px solid rgba(45, 196, 70, 0.788);
+}
+/* --------------------------------------*/
+
 .logo-text-studio {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -61,6 +84,11 @@ img {
   color: var(--accent-color);
 }
 
+.navigation-menu {
+  display: flex;
+  /* border: 1px solid black; */
+}
+
 .navigation-list-link {
   font-weight: 500;
   font-size: 14px;
@@ -68,6 +96,10 @@ img {
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--secondary-color);
+}
+.address-list {
+  display: flex;
+  /* border: 1px solid black; */
 }
 
 .header-tel,
