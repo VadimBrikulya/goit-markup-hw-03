@@ -145,12 +145,12 @@ img {
 
 /*---------- Hero ------------*/
 
-.hero {
+.background-baner {
   outline: 2px solid green;
 }
 
 /*---------------фон текста----------------*/
-.background-baner {
+.hero {
   background-color: #2f303a;
   min-height: 600px;
   display: flex;
