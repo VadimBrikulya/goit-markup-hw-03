@@ -156,6 +156,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 
 /*---------------параметры шрифта текста-------------------*/
