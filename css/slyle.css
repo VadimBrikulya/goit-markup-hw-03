@@ -41,6 +41,7 @@ img {
   border: 1px solid teal;
   justify-content: space-between;
   padding-right: 215px;
+  padding-left: 215px;
 }
 
 /* ----------------контеинер шапки----------------------*/
@@ -48,13 +49,17 @@ img {
 .header .container {
   display: flex;
 }
+
 /* ------------- flex логотип ------------------*/
 .header .container-logo {
   display: flex;
-  border: 1px solid rgb(0, 0, 0);
-  margin-right: 50px;
+  margin-right: 93px;
 }
 
+.container-logo {
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
 /* -------------параметры шрифта логотипа-----------------*/
 
 .logo-text-studio {
@@ -74,11 +79,15 @@ img {
 /* ----------- flex студия + портфолио + контакты ----------------*/
 .navigation-menu {
   display: flex;
-  border: 1px solid black;
 }
 
 .navigation-item:not(:last-child) {
   margin-right: 50px;
+}
+
+.container-item {
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 /* ----------- наведение мышки ----------------*/
@@ -108,7 +117,6 @@ img {
 
 .address-list {
   display: flex;
-  border: 1px solid black;
 }
 
 .container-address {
@@ -116,7 +124,7 @@ img {
   padding-bottom: 32px;
 }
 
-.address-list .header-tel {
+.address-list .header-mail {
   margin-right: 30px;
 }
 /* ------------ параметры шрифта номер + имеил ------------------*/
