@@ -207,24 +207,9 @@ img {
 
 /*---------------block III-------------------*/
 
-/*-------chart-container---------------*/
-
-.title-list {
-  display: flex;
-  border: 1px solid teal;
-}
-.block-words {
-  border: 1px solid teal;
-}
-.chart-container {
-  margin: 10px 10px;
-  display: flex;
-  border: 1px solid rgb(5, 0, 5);
-}
+/*-------chart список---------------*/
 
 .desription-item {
-  display: block;
-  text-align: center;
   font-weight: bold;
   font-size: 14px;
   line-height: 1.142;
@@ -234,7 +219,6 @@ img {
 }
 
 .desription {
-  display: block;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
