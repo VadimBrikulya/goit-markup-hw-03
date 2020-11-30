@@ -39,7 +39,7 @@ img {
 
 .header {
   display: flex;
-  border: 1px solid teal;
+  /* border: 1px solid teal; */
   justify-content: space-between;
   padding-right: 215px;
   padding-left: 215px;
@@ -145,18 +145,31 @@ img {
 
 /*---------- Hero ------------*/
 
+.hero {
+  outline: 2px solid green;
+}
+
+/*---------------фон текста----------------*/
+.background-baner {
+  background-color: #2f303a;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*---------------параметры шрифта текста-------------------*/
 .hero-title {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.363;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  /* color: #ffffff; */
+  color: #ffffff;
   text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
 }
 
+/*---------------Кнопка заказать услуги-------------------*/
 .modal-btn {
   font-family: var(--accent-color);
   font-weight: bold;
