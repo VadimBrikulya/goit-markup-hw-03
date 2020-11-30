@@ -1,3 +1,13 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 :root {
   --accent-color: #2196f3;
   --secondary-color: #212121;
@@ -35,14 +45,18 @@ img {
   list-style: none;
 }
 
+.header-width {
+  width: 1170px;
+  margin: auto;
+}
 /*---------- шапка ------------*/
 
 .header {
   display: flex;
   /* border: 1px solid teal; */
   justify-content: space-between;
-  padding-right: 215px;
-  padding-left: 215px;
+  /* padding-right: 215px;
+  padding-left: 215px; */
 }
 
 /* ----------------контеинер шапки----------------------*/
@@ -141,11 +155,10 @@ img {
 }
 /*------------------------------------------------*/
 
-/*---------------BLOCK 2------------------*/
+/*---------------BLOCK II------------------*/
 
-/*---------- Hero ------------*/
-
-/*---------------фон текста----------------*/
+/*---------------HERO -----------------------
+----------------------фон текста----------------*/
 .hero {
   background-color: #2f303a;
   min-height: 600px;
@@ -166,7 +179,7 @@ img {
   color: #ffffff;
   text-align: center;
 }
-
+/*---------------ширина эфективные решения-------------------*/
 .hero .hero-title {
   width: 696px;
 }
@@ -190,7 +203,8 @@ img {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
-
+/*-------------------------------------------------*/
+/*---------------block III-------------------*/
 .desription-item {
   font-weight: bold;
   font-size: 14px;
