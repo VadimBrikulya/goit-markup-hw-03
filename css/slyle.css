@@ -40,7 +40,7 @@ p {
 img {
   display: block;
 }
-
+/* ----------------------------------------- */
 .list {
   list-style: none;
 }
@@ -49,6 +49,7 @@ img {
   width: 1170px;
   margin: auto;
 }
+
 /*---------- шапка ------------*/
 
 .header {
