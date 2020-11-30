@@ -30,35 +30,32 @@ img {
   display: block;
 }
 
-/*---------- Header navigation ------------*/
+.list {
+  list-style: none;
+}
+
+/*---------- шапка ------------*/
 
 .header {
   display: flex;
   border: 1px solid teal;
+  justify-content: space-between;
+  padding-right: 215px;
 }
 
-/* ----------------логотип в рамке----------------------*/
+/* ----------------контеинер шапки----------------------*/
 
-.container {
+.header .container {
   display: flex;
 }
-
-.container-logo {
+/* ------------- flex логотип ------------------*/
+.header .container-logo {
   display: flex;
   border: 1px solid rgb(0, 0, 0);
+  margin-right: 50px;
 }
-/* логотип + студия + портфолио + контакты*/
 
-/* .navigation {
-  display: flex;
-  border: 1px solid rgba(54, 6, 6, 0.363);
-} */
-
-.navigation-menu {
-  display: flex;
-  border: 1px soliD black;
-}
-/* --------------------------------------*/
+/* -------------параметры шрифта логотипа-----------------*/
 
 .logo-text-studio {
   font-family: 'Raleway', sans-serif;
@@ -70,15 +67,21 @@ img {
   text-decoration: none;
   color: #000000;
 }
-
-.list {
-  list-style: none;
-}
-
 .word-web {
   color: var(--accent-color);
 }
 
+/* ----------- flex студия + портфолио + контакты ----------------*/
+.navigation-menu {
+  display: flex;
+  border: 1px solid black;
+}
+
+.navigation-item:not(:last-child) {
+  margin-right: 50px;
+}
+
+/* ----------- наведение мышки ----------------*/
 .navigation-list-link:hover,
 .navigation-list-link:focus,
 .header-mail:hover,
@@ -90,6 +93,8 @@ img {
   color: var(--accent-color);
 }
 
+/* ----------параметры шрифта студия + портфолио + контакты ------------------*/
+
 .navigation-list-link {
   font-weight: 500;
   font-size: 14px;
@@ -98,11 +103,23 @@ img {
   text-decoration: none;
   color: var(--secondary-color);
 }
+
+/* ------------ flex номер + имеил ------------------*/
+
 .address-list {
   display: flex;
   border: 1px solid black;
 }
 
+.container-address {
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+.address-list .header-tel {
+  margin-right: 30px;
+}
+/* ------------ параметры шрифта номер + имеил ------------------*/
 .header-tel,
 .header-mail {
   font-style: normal;
