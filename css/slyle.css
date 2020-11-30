@@ -29,35 +29,8 @@ p {
 img {
   display: block;
 }
+
 /*---------- Header navigation ------------*/
-
-.header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.header .logo-text-studio {
-  margin-left: 215px;
-  margin-top: 24px;
-  margin-right: 93px;
-}
-.navigation {
-  display: flex;
-  justify-content: center;
-}
-
-.navigation-menu {
-  display: flex;
-  justify-content: center;
-}
-.address-list {
-  display: flex;
-  justify-content: center;
-}
-
-.header .address {
-  margin-right: 30px;
-}
 .logo-text-studio {
   font-family: 'Raleway', sans-serif;
   font-style: normal;
@@ -97,20 +70,6 @@ img {
   color: var(--secondary-color);
 }
 
-.navigation-item:not(:last-child) {
-  margin-right: 50px;
-}
-
-.container-address {
-  margin-right: 215px;
-  margin-top: 32px;
-}
-
-.container-item {
-  margin-top: 32px;
-  margin-bottom: 32px;
-}
-
 .header-tel,
 .header-mail {
   font-style: normal;
@@ -132,6 +91,7 @@ img {
   text-transform: uppercase;
   /* color: #ffffff; */
   text-align: center;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
