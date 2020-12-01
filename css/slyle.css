@@ -12,6 +12,7 @@ html {
   --accent-color: #2196f3;
   --secondary-color: #212121;
   --main-font: 'Roboto', sans-serif;
+  --second-bg-color: #f5f4fa;
 }
 body {
   font-family: var(--main-font);
@@ -249,7 +250,23 @@ img {
 }
 
 /*---------- about us ------------*/
+
+.service {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.about-us-list {
+  display: flex;
+  justify-content: center;
+}
+
+.about-us-list .about-us-img:not(:nth-child(3n)) {
+  margin-right: 30px;
+}
+
 .about-us-title {
+  margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.166;
@@ -258,13 +275,40 @@ img {
   color: var(--secondary-color);
 }
 
+/*---------- Our team ------------*/
+
+.our-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+  background-color: var(--second-bg-color);
+}
+
+.name {
+  display: flex;
+  /* border: 1px solid teal; */
+  justify-content: center;
+}
+
+.name .name-team:not(:nth-child(4n)) {
+  margin-right: 30px;
+}
+
+.name .name-team {
+  display: block;
+  margin-bottom: 30px;
+}
+
+.name-team .image {
+  margin-bottom: 30px;
+}
+
 .our-team-title {
+  margin-bottom: 50px;
   font-weight: bold;
   font-size: 36px;
   line-height: 1.166;
   text-align: center;
   letter-spacing: 0.03em;
-
   color: var(--secondary-color);
 }
 .name-list {
@@ -276,8 +320,9 @@ img {
   letter-spacing: 0.03em;
   color: var(--secondary-color);
 }
+
 .list-position {
-  font-weight: normal;
+  font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
   text-align: center;
@@ -285,7 +330,20 @@ img {
   color: #757575;
 }
 
+.name .name-team {
+  padding-bottom: 30px;
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.name .name-list {
+  margin-bottom: 10px;
+}
+
 /*---------- footer main page------------*/
+
 .contact-form {
   background: #2f303a;
 }
