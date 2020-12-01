@@ -57,8 +57,6 @@ img {
   display: flex;
   /* border: 1px solid teal; */
   justify-content: space-between;
-  /* padding-right: 215px;
-  padding-left: 215px; */
 }
 
 /* ----------------контеинер шапки----------------------*/
@@ -219,11 +217,17 @@ img {
 
 .title-list {
   display: flex;
+  /* border: 1px solid teal; */
+}
+
+.title-list .item:not(:nth-child(4n)) {
+  margin-right: 30px;
 }
 
 .title-list .item {
   width: 270px;
 }
+
 .desription-item {
   font-weight: bold;
   font-size: 14px;
@@ -231,9 +235,11 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--secondary-color);
+  margin-bottom: 10px;
 }
 
 .desription {
+  margin-top: 10px;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.714;
