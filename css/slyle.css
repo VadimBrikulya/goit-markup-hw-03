@@ -167,7 +167,7 @@ img {
   align-items: center;
   justify-content: center;
   padding-top: 200px;
-  padding-bottom: 280px;
+  padding-bottom: 200px;
 }
 
 /*---------------параметры шрифта текста-------------------*/
@@ -193,7 +193,9 @@ img {
   font-family: var(--accent-color);
 }
 .modal-btn {
-  /* font-family: var(--accent-color); */
+  min-width: 200px;
+  height: 50px;
+  font-family: var(--accent-color);
   font-weight: bold;
   font-size: 16px;
   line-height: 1.187;
@@ -203,12 +205,25 @@ img {
   background-color: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: 1px;
+  cursor: pointer;
 }
 
 /*---------------block III-------------------*/
 
 /*-------chart список---------------*/
 
+.otstup-sekcii {
+  padding-top: 94px;
+}
+
+.title-list {
+  display: flex;
+}
+
+.title-list .item {
+  width: 270px;
+}
 .desription-item {
   font-weight: bold;
   font-size: 14px;
