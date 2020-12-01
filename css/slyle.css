@@ -312,6 +312,7 @@ img {
   color: var(--secondary-color);
 }
 .name-list {
+  margin-bottom: 10px;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -338,17 +339,37 @@ img {
   border-radius: 0px 0px 4px 4px;
 }
 
-.name .name-list {
-  margin-bottom: 10px;
+/*---------- footer ------------*/
+
+.footer-address {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid teal; */
 }
 
-/*---------- footer main page------------*/
+.footer-address .contact-list:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-logo {
+  display: inline-block;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Raleway, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
 
 .contact-form {
   background: #2f303a;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .address-link {
+  margin-bottom: 9px;
   font-style: normal;
   font-weight: normal;
   font-size: 14px;
