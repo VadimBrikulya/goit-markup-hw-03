@@ -68,6 +68,7 @@ img {
   display: flex;
   /* border: 1px solid teal; */
   justify-content: space-between;
+  border-bottom: 1px solid #ececec;
 }
 
 /* ----------------контейнер шапки----------------------*/
@@ -400,10 +401,16 @@ img {
 
 /* ----------- Portfolio----------------- */
 
+.indent {
+  padding-top: 76px;
+  padding-bottom: 112px;
+}
+
 .button-list {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
+  /* border: 1px solid teal; */
 }
 
 .button-list .button {
