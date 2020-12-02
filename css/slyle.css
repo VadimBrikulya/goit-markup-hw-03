@@ -225,7 +225,6 @@ p {
 
 .title-list {
   display: flex;
-  /* border: 1px solid teal; */
 }
 
 .title-list .item:not(:nth-child(4n)) {
@@ -448,7 +447,7 @@ p {
   width: 100%;
 }
 
-.item {
+.item-chart {
   /* outline: 1px solid teal; */
   flex-basis: calc(100% / 3 - 30px);
   margin-left: 30px;
@@ -457,7 +456,7 @@ p {
   border: 1px solid #eeeeee;
 }
 
-.item h2 {
+.item-chart h2 {
   margin-top: 20px;
   margin-bottom: 4px;
   margin-right: 24px;
@@ -470,7 +469,7 @@ p {
   color: #212121;
 }
 
-.item P {
+.item-chart P {
   margin-top: 0px;
   margin-bottom: 20px;
   margin-right: 24px;
