@@ -68,7 +68,6 @@ img {
   display: flex;
   /* border: 1px solid teal; */
   justify-content: space-between;
-  border-bottom: 1px solid #ececec;
 }
 
 /* ----------------контейнер шапки----------------------*/
@@ -402,6 +401,7 @@ img {
 /* ----------- Portfolio----------------- */
 
 .indent {
+  border-top: 1px solid #ececec;
   padding-top: 76px;
   padding-bottom: 112px;
 }
