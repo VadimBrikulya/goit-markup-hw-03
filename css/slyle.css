@@ -428,13 +428,38 @@ p {
 .portfolio-btn.button:focus {
   background: var(--accent-color);
 }
+/*-----------------секция фото-------------------------*/
+
+.container-portfolio {
+  max-width: 1200px;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.image {
+  width: 100%;
+}
 
 .portfolio-list {
   display: flex;
   flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
+}
+.portfolio-list .image {
+  display: block;
 }
 
-.portfolio-list .title {
+.item {
+  /* outline: 1px solid teal; */
+  flex-basis: calc(100% / 3 - 30px);
+  margin-left: 30px;
+  margin-top: 30px;
+  background-color: #ffffff;
+  border: 1px solid #eeeeee;
+}
+
+.item h2 {
   font-family: var(--accent-color);
   font-weight: bold;
   font-size: 18px;
@@ -443,7 +468,8 @@ p {
   color: #212121;
 }
 
-.portfolio-list .description {
+.item P {
+  margin: 0;
   font-family: var(--accent-color);
   font-size: 16px;
   line-height: 1.875;
