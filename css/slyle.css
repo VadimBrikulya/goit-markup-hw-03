@@ -38,9 +38,6 @@ p {
   margin: 0;
 }
 
-img {
-  display: block;
-}
 /* ----------------------------------------- */
 
 .list {
@@ -431,7 +428,6 @@ img {
 .portfolio-btn.button:focus {
   background: var(--accent-color);
 }
-/*--------section foto-------------------*/
 
 .portfolio-list {
   display: flex;
@@ -453,22 +449,4 @@ img {
   line-height: 1.875;
   letter-spacing: 0.03em;
   color: #757575;
-}
-
-.container-wrapper {
-  max-width: 1170px;
-  /* outline: 1px solid teal; */
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.item {
-  /* Задаём всем элементам маржины слева и сверху */
-  margin-left: 10px;
-  margin-top: 10px;
-  /*  Задаём ширину элементов  */
-  flex-basis: calc(100% / 3 - 10px);
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-  box-sizing: border-box;
 }
